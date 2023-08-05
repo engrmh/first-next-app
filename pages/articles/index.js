@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Article() {
   return (
-    <div>Article</div>
+    <h1>Article</h1>
   )
 }
