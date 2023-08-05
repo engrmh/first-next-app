@@ -3,8 +3,17 @@ import {useRouter} from "next/router";
 
 function SingleCourse () {
     const routes = useRouter()
+
+    const goBackHandler = () => {
+        routes.back()
+    }
+
     return(
-    <h1>Single Course: {routes.query.shortName}</h1>
-)
+        <>
+            <h1>Single Course: {routes.query.shortName}</h1>
+            <br/>
+            <button onClick={() => goBackHandler()}>Back</button>
+        </>
+    )
 }
 export default SingleCourse
