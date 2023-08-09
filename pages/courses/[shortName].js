@@ -2,6 +2,8 @@ import React from 'react'
 import {useRouter} from "next/router";
 
 function SingleCourse () {
+      // console.log(router.query.shortName); for get shortName
+
     const routes = useRouter()
 
     const goBackHandler = () => {
