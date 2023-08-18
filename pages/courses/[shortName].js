@@ -1,5 +1,6 @@
 import React from 'react'
 import {useRouter} from "next/router";
+import CourseBox from '@/Components/CourseBox/CourseBox';
 
 function SingleCourse () {
       // console.log(router.query.shortName); for get shortName
